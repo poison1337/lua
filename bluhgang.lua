@@ -429,4 +429,3 @@ client.set_event_callback('paint_ui', function()
             end
 	end)
 end)
-end)
