@@ -1,4 +1,3 @@
-
 local images = require('gamesense/images') or error('images library not found', 2)
 local http = require('gamesense/http') or error('http library not found', 2)
 
