@@ -29,7 +29,7 @@ function old_legs()
     end
 end
 
-	
+---
 picurl = 'https://i.imgur.com/ZBtQUMX.png'
 local image 
 http.get(picurl, function(s, r)
