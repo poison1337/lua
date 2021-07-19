@@ -377,16 +377,6 @@ if activehwid == false then
     error('' .. hwid, 2)	
 end
 
---[[client.delay_call(1, function()
-
-	notify:paint(5, data)
-end)
-
-client.delay_call(2, function()
-        notify:paint(5, data1) 
-end)--]]
-
-
 client.set_event_callback('net_update_end', function()
   
         if ui.get(xantares_legs) then
